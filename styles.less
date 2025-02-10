@@ -1686,7 +1686,15 @@ body {
     }
 
     .navbar {
-        justify-content: space-between;
+        justify-content: space-around;
+
+        .right {
+            margin-right: 10px;
+        }
+
+        .riot {
+            margin-left: 10px;
+        }
     }
 
     .menu-reponsive {
@@ -1716,6 +1724,18 @@ body {
 
     .tini {
         display: none;
+    }
+
+    .news{
+        display: flex;
+        justify-content: center;
+
+        .news-content {
+            width: 98%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
     }
 
     .author {
